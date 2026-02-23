@@ -1,9 +1,15 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const Footer = () => {
+  const { ref, isVisible } = useScrollAnimation();
+
   return (
-    <footer className="border-t border-border px-6 py-10 text-center">
+    <footer
+      ref={ref}
+      className={`border-t border-border px-6 py-10 text-center transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+    >
       <div className="mb-4 flex justify-center gap-3">
         <Button variant="ghost" size="icon" asChild>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">

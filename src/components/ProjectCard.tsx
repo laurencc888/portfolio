@@ -3,9 +3,14 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import type { Project } from "@/data/projects";
 
-const ProjectCard = ({ title, description, tags, github, demo, overview, report }: Project) => {
+interface ProjectCardProps extends Project {
+  className?: string;
+  style?: React.CSSProperties;
+}
+
+const ProjectCard = ({ title, description, tags, github, demo, report, className = "", style }: ProjectCardProps) => {
   return (
-    <div className="group rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-md">
+    <div className={`group rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-md ${className}`} style={style}>
       <h3 className="mb-2 text-lg font-semibold text-card-foreground">{title}</h3>
       <p className="mb-4 text-sm leading-relaxed text-muted-foreground">{description}</p>
       <div className="mb-4 flex flex-wrap gap-1.5">
