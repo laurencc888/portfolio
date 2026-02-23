@@ -9,7 +9,7 @@ const AboutSection = () => {
       <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start">
         <Avatar className="h-20 w-20 shrink-0">
           <AvatarFallback className="text-2xl font-semibold bg-secondary text-secondary-foreground">
-            JD
+            LC
           </AvatarFallback>
         </Avatar>
         <div className="text-center sm:text-left">
@@ -17,6 +17,9 @@ const AboutSection = () => {
             I'm a senior Computer Science student passionate about full-stack development, 
             algorithm design, and creating software that makes a real difference. I've worked 
             on everything from mobile apps to developer tools.
+          </p>
+          <p className="mb-4 leading-relaxed text-muted-foreground">
+            I'm always looking to pick up new skills and refine my current ones!
           </p>
           <p className="leading-relaxed text-muted-foreground">
             Currently seeking full-time software engineering roles where I can grow, 

@@ -2,25 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* colors in HSL
+  colors, fonts, etc. defined here
 */
 
 @layer base {
   :root {
-    --background: 50 60% 95%;
-    --foreground: 160 25% 16%;
+    --background: 50 60% 95%; /* light cream */
+    --foreground: 160 25% 16%; /* dark green */
 
-    --card: 46 70% 92%;
+    --card: 46 70% 92%; /* cream */
     --card-foreground: 160 25% 16%;
 
-    --popover: 50 60% 95%;
+    --popover: 46 70% 92%;
     --popover-foreground: 160 25% 16%;
 
     --primary: 160 25% 16%;
-    --primary-foreground: 46 70% 87%;
+    --primary-foreground: 46 70% 92%;
 
-    --secondary: 100 12% 51%;
+    --secondary: 100 12% 51%; /* light green */
     --secondary-foreground: 160 25% 16%;
 
     --muted: 100 12% 80%;

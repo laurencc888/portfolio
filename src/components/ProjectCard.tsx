@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import type { Project } from "@/data/projects";
 
-const ProjectCard = ({ title, description, tags, github, demo }: Project) => {
+const ProjectCard = ({ title, description, tags, github, demo, overview, report }: Project) => {
   return (
     <div className="group rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-md">
       <h3 className="mb-2 text-lg font-semibold text-card-foreground">{title}</h3>
@@ -27,6 +27,13 @@ const ProjectCard = ({ title, description, tags, github, demo }: Project) => {
           <Button variant="ghost" size="sm" asChild>
             <a href={demo} target="_blank" rel="noopener noreferrer">
               <ExternalLink className="mr-1.5 h-4 w-4" /> Demo
+            </a>
+          </Button>
+        )}
+        {report && (
+          <Button variant="ghost" size="sm" asChild>
+            <a href={report} target="_blank" rel="noopener noreferrer">
+              <ExternalLink className="mr-1.5 h-4 w-4" /> Report
             </a>
           </Button>
         )}

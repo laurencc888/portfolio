@@ -5,27 +5,28 @@ const HeroSection = () => {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
       <p className="mb-3 text-sm uppercase tracking-[0.3em] text-muted-foreground">
-        Senior CS Student & Developer
+        Welcome to my
       </p>
       <h1 className="mb-6 text-5xl font-bold tracking-tight text-foreground sm:text-7xl">
-        Jane Doe
+        PORTFOLIO
       </h1>
       <p className="mb-8 max-w-md text-lg text-muted-foreground">
-        I build thoughtful, user-focused software and love turning complex problems into clean solutions.
+        A collection of projects I've worked on over the years.
       </p>
       <div className="flex gap-3">
-        <Button variant="ghost" size="icon" asChild>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <Button variant="ghost" size="icon" asChild>  
+          {/* TODO: make this a resume download */}
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="resume">
             <Github className="h-5 w-5" />
           </a>
         </Button>
         <Button variant="ghost" size="icon" asChild>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/laurencc888/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <Linkedin className="h-5 w-5" />
           </a>
         </Button>
         <Button variant="ghost" size="icon" asChild>
-          <a href="mailto:jane@example.com" aria-label="Email">
+          <a href="mailto:laurencc@usc.edu" aria-label="Email">
             <Mail className="h-5 w-5" />
           </a>
         </Button>
