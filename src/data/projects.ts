@@ -31,9 +31,10 @@ export const projects: Project[] = [
   },
   {
     title: "Let's Get Lyrical!",
-    description: "Personal finance tracker with expense categorization, monthly insights, and visual spending breakdowns.",
-    tags: ["React Native", "Node.js", "MongoDB"],
-    github: "https://github.com",
+    description: "A web application where users can search and favorite songs, generate word clouds from lyrics, and compare with friends. All song data is sourced from the Genius API.",
+    tags: ["Web Development", "REST API", "JUnit", "Jest", "Cucumber", "CI/CD", "SQL", "Scrums"],
+    github: "https://github.com/laurencc888/LetsGetLyrical",
+    demo: "https://drive.google.com/file/d/14G6M4PHkxdRFcUjjli6ZbpsI5dl93dq3/view?usp=sharing",
   },
   // { LOWKEY PLEASE LET ME ADD THIS ONE IN LATER BC I WANNA MAKE IT BETTER
   //   title: "Mini Arcade",
@@ -62,10 +63,11 @@ export const projects: Project[] = [
     demo: "https://drive.google.com/file/d/1j8sqXJwDYj_76OXtiD8ERJYeEaE48lEU/view?usp=sharing",
   },
   {
-    title: "How's the Weather?",
-    description: "Appointment scheduling system for clinics with patient portal, reminders, and doctor availability management.",
-    tags: ["Java", "Spring Boot", "React", "MySQL"],
-    github: "https://github.com",
+    title: "Weather Tracker",
+    description: "A weather tracking application that displays current conditions and forecasts for a location, given its name or coordinates.",
+    tags: ["Java", "HTML", "CSS", "JavaScript", "Java Servlets", "MySQL", "GoogleMaps API", "JDBC", "OpenWeather API"],
+    github: "https://github.com/laurencc888/WeatherTracker",
+    demo: "https://drive.google.com/file/d/1TsbffRHBI4lIOHkvU_Wo_-ZBRKm1KyOL/view?usp=sharing",
   },
   {
     title: "Tap-A-Bara",

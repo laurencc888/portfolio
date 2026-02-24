@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { AvatarImage } from "@radix-ui/react-avatar";
 
 const AboutSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -15,22 +16,23 @@ const AboutSection = () => {
       </h2>
       <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start">
         <Avatar className="h-20 w-20 shrink-0">
+          <AvatarImage src="/pfp.jpeg" alt="Profile Picture" />
           <AvatarFallback className="text-2xl font-semibold bg-secondary text-secondary-foreground">
             LC
           </AvatarFallback>
         </Avatar>
         <div className="text-center sm:text-left">
           <p className="mb-4 leading-relaxed text-muted-foreground">
-            I'm a senior Computer Science student passionate about full-stack development, 
-            algorithm design, and creating software that makes a real difference. I've worked 
+            I'm a senior Computer Science student at USC also pursuing her Master's degree in Computer Science. I am passionate about full-stack development, 
+            algorithm design, and creating impactful software. I've worked 
             on everything from mobile apps to developer tools.
           </p>
           <p className="mb-4 leading-relaxed text-muted-foreground">
-            I'm always looking to pick up new skills and refine my current ones!
+            Always looking to pick up new skills and refine my current ones!
           </p>
           <p className="leading-relaxed text-muted-foreground">
-            Currently seeking full-time software engineering roles where I can grow, 
-            contribute to meaningful products, and keep learning every day.
+            Seeking summer internships and full-time software engineering roles where I can grow, 
+            contribute to meaningful products, and continue learning every day.
           </p>
         </div>
       </div>
