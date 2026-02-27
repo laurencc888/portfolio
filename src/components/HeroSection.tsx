@@ -16,12 +16,12 @@ const HeroSection = () => {
       <div className="flex gap-3">
         <Button variant="ghost" size="icon" asChild>  
           {/* TODO: make this a resume download */}
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="resume">
+          <a href="https://github.com/laurencc888" target="_blank" rel="noopener noreferrer" aria-label="resume">
             <Github className="h-5 w-5" />
           </a>
         </Button>
         <Button variant="ghost" size="icon" asChild>
-          <a href="https://www.linkedin.com/in/laurencc888/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://linkedin.com/in/laurencc888/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <Linkedin className="h-5 w-5" />
           </a>
         </Button>
