@@ -66,7 +66,7 @@ export const projects: Project[] = [
     title: "Weather Tracker",
     description: "A weather tracking application that displays current conditions and forecasts for a location, given its name or coordinates.",
     tags: ["Java", "HTML", "CSS", "JavaScript", "Java Servlets", "MySQL", "GoogleMaps API", "JDBC", "OpenWeather API"],
-    // github: "https://github.com/laurencc888/WeatherTracker",
+    github: "https://github.com/laurencc888/WeatherTracker",
     demo: "https://drive.google.com/file/d/1TsbffRHBI4lIOHkvU_Wo_-ZBRKm1KyOL/view?usp=sharing",
   },
   {
