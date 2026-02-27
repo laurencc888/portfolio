@@ -16,7 +16,7 @@ const AboutSection = () => {
       </h2>
       <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start">
         <Avatar className="h-20 w-20 shrink-0">
-          <AvatarImage src="/pfp.jpeg" alt="Profile Picture" />
+          <AvatarImage src="../misc/pfp.jpeg" alt="Profile Picture" />
           <AvatarFallback className="text-2xl font-semibold bg-secondary text-secondary-foreground">
             LC
           </AvatarFallback>
