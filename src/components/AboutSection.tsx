@@ -1,6 +1,7 @@
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { AvatarImage } from "@radix-ui/react-avatar";
+import profilePic from "../misc/pfp.jpeg";
 
 const AboutSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -16,7 +17,7 @@ const AboutSection = () => {
       </h2>
       <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start">
         <Avatar className="h-20 w-20 shrink-0">
-          <AvatarImage src="src/misc/pfp.jpeg" alt="Profile Picture" />
+          <AvatarImage src={profilePic} alt="Profile Picture" />
           <AvatarFallback className="text-2xl font-semibold bg-secondary text-secondary-foreground">
             LC
           </AvatarFallback>
